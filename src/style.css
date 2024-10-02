@@ -1,0 +1,169 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 100vh;
+    /* Hace que el cuerpo ocupe toda la altura de la pantalla */
+    margin: 0;
+    /* Elimina márgenes del body */
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.form-cont {
+    display: flex;
+    flex-direction: column;
+    /* Asegura que los elementos se alineen verticalmente */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+    justify-content: center;
+    /* Centra los elementos verticalmente */
+    text-align: center;
+    /* Centra el texto */
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+
+    
+}
+
+label,
+h1 {
+    display: block;
+    /* Asegura que ocupen el espacio completo */
+    text-align: center;
+    /* Asegura que el texto esté centrado */
+    width: 100%;
+}
+
+#titulo {
+    color: bisque;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+#nombre {
+    font-size: larger;
+    color: aqua;
+}
+
+#redes {
+    color: yellow;
+    margin-top: 30px;
+}
+
+#trabajos {
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.foto {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.wsp {
+    width: 50px;
+    justify-self: center;
+}
+
+.inst {
+    width: 50px;
+    justify-self: center;
+}
+
+.lnd {
+    width: 50px;
+}
+
+.imagenes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /* Asegura que las imágenes de las redes estén centradas */
+    margin: 20px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    padding-block-end: 50px;
+
+}
+.botonesHab{
+    padding: 20px;
+    
+}
+.Habilidades{
+    margin: 5px;
+    border: 1px solid;
+    width: 150px;
+}
+.Timeline{
+    margin: 5px;
+    border: 1px solid;
+    width: 150px;
+
+}
+
+#trabajo {
+    background: none;
+    border-color: rgb(193, 196, 199);
+    width: 500px;
+    /* Ajusta el ancho */
+    height: 50px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#trabajo:hover {
+    background-color: rgb(139, 133, 133);
+    color: black;
+}
+
+.header {
+    background-color: #000000;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+.nav-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: white;
+}
+
+
+@media (max-width: 600px) {
+    .nav-item {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .foto {
+        width: 150px; 
+}
+}
