@@ -20,7 +20,7 @@ function Portfolio() {
   };
 
   return (
-    <div>
+    <div className='todo'>
       <header className="header">
         <nav className="nav">
           <a href="#" className="nav-item">Acerca de mi</a>
@@ -72,6 +72,12 @@ function Portfolio() {
         </a>
         <a href="https://github.com/edwinmgallego/clase-practica-css-jueves.git">
           <button className="trabajo" id="trabajo">Actividad 4</button>
+        </a>
+        <a href="https://github.com/darwin0809/clase-8.git">
+          <button className="trabajo" id="trabajo">Actividad clase 8</button>
+        </a>
+        <a href="https://github.com/darwin0809/Clase10.git">
+          <button className="trabajo" id="trabajo">Actividad Clase 10</button>
         </a>
         
       </div>
