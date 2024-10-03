@@ -35,7 +35,7 @@ function Portfolio() {
         <label htmlFor="title" id="titulo">Portafolio</label>
         <label htmlFor="name" id="nombre" className="nombre">Darwin Andres Criollo Leon</label>
         <div className="foto">
-          <img src="1724376277843.webp" alt="" className="foto" />
+          <img src="/1724376277843.webp" alt="" className="foto" />
         </div>
         <label>Ingeniero Multimedia</label>
         <label htmlFor="Redes:" id="redes">Redes:</label>
