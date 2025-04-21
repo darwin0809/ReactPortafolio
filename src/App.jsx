@@ -61,23 +61,17 @@ function Portfolio() {
       </div>
 
       <div className="botones">
-        <a href="https://github.com/darwin0809/prueba2.git">
-          <button className="trabajo" id="trabajo">Actividad 1</button>
+        <a href="https://darwin0809.github.io/vidj2/">
+          <button className="trabajo" id="trabajo">El Centro de la Tierra</button>
         </a>
-        <a href="https://github.com/darwin0809/CFHTML.git">
-          <button className="trabajo" id="trabajo">Actividad 2</button>
+        <a href="https://parcial-final-web-ten.vercel.app">
+          <button className="trabajo" id="trabajo">Opitas Food</button>
         </a>
-        <a href="https://github.com/darwin0809/clase3.git">
-          <button className="trabajo" id="trabajo">Actividad 3</button>
+        <a href="https://github.com/darwin0809/CNNRiosMagicos">
+          <button className="trabajo" id="trabajo">Rios Magicos</button>
         </a>
-        <a href="https://github.com/edwinmgallego/clase-practica-css-jueves.git">
-          <button className="trabajo" id="trabajo">Actividad 4</button>
-        </a>
-        <a href="https://github.com/darwin0809/clase-8.git">
-          <button className="trabajo" id="trabajo">Actividad clase 8</button>
-        </a>
-        <a href="https://github.com/darwin0809/Clase10.git">
-          <button className="trabajo" id="trabajo">Actividad Clase 10</button>
+        <a href="https://github.com/darwin0809/locationMovil.git">
+          <button className="trabajo" id="trabajo">App Movil (Uso Apis)</button>
         </a>
         
       </div>
