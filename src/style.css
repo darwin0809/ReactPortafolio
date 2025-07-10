@@ -27,8 +27,9 @@ body {
     background-color: #000000;
     padding: 20px;
     border-radius: 10px;
-
-    
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 label,
@@ -56,10 +57,7 @@ h1 {
     margin-top: 30px;
 }
 
-#trabajos {
-    color: greenyellow;
-    font-size: 20px;
-}
+/* El estilo de #trabajos se ha movido al componente Projects */
 
 .foto {
     width: 200px;
@@ -88,15 +86,7 @@ h1 {
     margin: 20px;
 }
 
-.botones {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-
-    padding-block-end: 50px;
-
-}
+/* Los estilos de .botones se han movido al componente Projects */
 .botonesHab{
     padding: 20px;
     
@@ -113,20 +103,7 @@ h1 {
 
 }
 
-#trabajo {
-    background: none;
-    border-color: rgb(193, 196, 199);
-    width: 500px;
-    /* Ajusta el ancho */
-    height: 50px;
-    color: aliceblue;
-    cursor: pointer;
-}
-
-#trabajo:hover {
-    background-color: rgb(139, 133, 133);
-    color: black;
-}
+/* Los estilos de #trabajo se han movido al componente Projects */
 
 .header {
     background-color: #000000;

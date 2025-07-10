@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './style.css'; // Importamos el CSS
 import Skills from './Skills';
 import Timeline from './Timeline';
+import Projects from './Projects';
 
 function Portfolio() {
   // Estado para controlar la visibilidad de Skills y Timeline
@@ -57,24 +58,9 @@ function Portfolio() {
         </div>     
         {showSkills && <Skills />}
         {showTimeline && <Timeline />}
-        <label htmlFor="trabajos" id="trabajos">Trabajos realizados:</label>
       </div>
 
-      <div className="botones">
-        <a href="https://darwin0809.github.io/vidj2/">
-          <button className="trabajo" id="trabajo">El Centro de la Tierra</button>
-        </a>
-        <a href="https://parcial-final-web-ten.vercel.app">
-          <button className="trabajo" id="trabajo">Opitas Food</button>
-        </a>
-        <a href="https://github.com/darwin0809/CNNRiosMagicos">
-          <button className="trabajo" id="trabajo">Rios Magicos</button>
-        </a>
-        <a href="https://github.com/darwin0809/locationMovil.git">
-          <button className="trabajo" id="trabajo">App Movil (Uso Apis)</button>
-        </a>
-        
-      </div>
+      <Projects />
       
     </div>
   );
